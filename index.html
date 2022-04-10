@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="UTF-8">
+      <title>Inicio</title>
+	  <link rel="icon" type="image/x-icon" href="https://i.ibb.co/5KbJ92t/logo-soypato-small.png">
+      <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="./css/mobile.css">
+	  <link rel="stylesheet" href="./css/particles.css">
+
+   </head>
+   <body>
+	   <!-- particles.js container --> 
+	   <div id="particles-js"></div> <!-- stats - count particles --> 
+	   <div class="count-particles"> 
+	   <span class="js-count-particles">--</span> particles </div> 
+       <div class="container">
+         <div id="content" class="vcenter">
+            <h1 id="clock"></h1>
+            <div id="motivationDiv"></div>
+            <a class="weatherwidget-io" href="https://forecast7.com/es/n38d01n57d54/mar-del-plata/" data-label_1="Mardel" data-font="Roboto" data-icons="Climacons Animated" data-mode="Current" data-theme="dark" data-basecolor="rgba(255, 255, 255, 0)" data-textcolor="#ffffff" data-mooncolor="#ffffff" data-cloudfill="rgba(255, 255, 255, 0.12)" >Mar del Plata</a>
+            <script>
+               !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+            </script>
+            <div id="inputs">
+				<div class="btn-group">
+					<a class="btn btn-default" href="http://youtube.com">youtube</a>
+					<a class="btn btn-default" href="http://twitch.com">twitch</a>
+					<a class="btn btn-default" href="http://github.com">github</a>
+					<a class="btn btn-default" href="http://instagram.com">instagram</a>
+					<a class="btn btn-default" href="https://tiktok.com">tiktok</a>
+					<a class="btn btn-default" href="https://soypato.github.io/redes/">redes</a>
+				 </div>
+               <form method="get" action="http://www.google.com/search">
+                  <div class="input-group">
+                     <input name="q" type="text" class="form-control" placeholder="Google" autofocus>
+                     <span class="input-group-btn">
+                     <button type="submit" class="btn btn-default">Search</button>
+                     </span>
+                  </div>
+               </form>
+			   <footer>
+				Por <a href="https://soypato.github.io">SoyPato</a>, en fork de <a href="https://github.com/startpages/startpages.github.io/tree/master/startpages/Startpage-austinkilduff">Austin Kilduff</a>
+			</footer>
+            </div>
+         </div>
+      </div>
+      <script src="./js/index.js"></script>
+	  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+	  <script src="./js/particles.js"></script>
+
+   </body>
+</html>

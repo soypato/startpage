@@ -5,14 +5,11 @@
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
-	background-color: #2753A4; /* if particles fail */
+	font-family: 'Helvetica', sans-serif;
+	background-color: #141518; /* if particles fail */
 	overflow-y: hidden;
 }
-#particles-js{
-	position: relative;
-	z-index: 0;
-}
+
 .container {
 	padding: 0;
 	width: fit-content;
@@ -24,7 +21,7 @@ body {
 }
 #content {
 	padding: 4rem;
-	background: rgba(255, 255, 255, 0.2);
+	background: rgba(42, 39, 39, 0.2);
 	border-radius: 16px;
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 	backdrop-filter: blur(5px);

@@ -10,8 +10,10 @@ canvas {
         position: absolute;
         width: 100%;
         height: 100%;
-        background-color: #232741;
+        background-color: #141518;
         background-image:/* ---- stats.js ---- */
+        position: relative;
+        z-index: 0;
       
         .js-count-particles {
             font-size: 1.1em;

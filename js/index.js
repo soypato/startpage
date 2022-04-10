@@ -25,7 +25,7 @@ const startTime = () => {
     if (hourNow > 14 && hourNow < 19) {
         motivationText = '¡Buenas tardes! #StayFocused'
     }
-    if (hourNow > 20 && hourNow < 23) {
+    if (hourNow > 19 && hourNow < 23) {
         motivationText = '¡Buenas noches! Recordá alimentarte y descansar bien.'
     }
 }

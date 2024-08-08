@@ -17,6 +17,7 @@ body {
 #clock{
 	text-align: center;
 	color: #fff;
+	text-shadow: 0 0 1rem #fff;
 	font-weight: 800;
 }
 #content {

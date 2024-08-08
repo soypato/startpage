@@ -10,6 +10,7 @@ body {
 	overflow-y: hidden;
 }
 
+
 .container {
 	padding: 0;
 	width: fit-content;
@@ -17,7 +18,9 @@ body {
 #clock{
 	text-align: center;
 	color: #fff;
-	text-shadow: 0 0 1rem #fff;
+	background-color: #11142488;
+	padding: 1rem;
+	border-radius: 1rem;
 	font-weight: 800;
 }
 #content {
@@ -31,8 +34,8 @@ body {
 }
 .vcenter {
 	position: relative;
-	top: 50vh;
-	transform: translateY(-50%);
+	margin-top: 20%;
+
 }
 #inputs {
 	display: table;
@@ -43,11 +46,17 @@ body {
 	color: #fff;
 }
 
-
-.btn-group {
-	margin-top: 15px;
-	margin-bottom: 20px;
+#queryInput
+{
+	background-color: #00000080;
+	color: #fff;
 }
+
+#querySubmit
+{
+	border: 0.1rem solid #fff;
+}
+
 #motivationDiv{
 	color: #fff;
 	margin-top: 2rem;
